@@ -74,7 +74,7 @@ def runge_kutta_explicito_sistema(f, t0, tf, N, y0, A, b, c):
 
 def f(t, z):
     x, y = z
-    return array([y, 2*y])
+    return array([x, 2*y])
 
 
 A = array([
