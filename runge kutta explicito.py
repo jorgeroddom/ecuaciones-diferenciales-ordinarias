@@ -89,15 +89,11 @@ c = array([0, 1/2, 1/2, 1])
 t0 = 0
 tf = 2
 N = 50
-<<<<<<< HEAD
 y0 = array([1])
 
 (t,y) = runge_kutta_explicito(f,t0,tf,N,y0,A,b,c)
 
 
-=======
-y0 = array([1, 2])
->>>>>>> 1935629d00010d08af39658eeeb08df96e076683
 
 
 # t, y = runge_kutta_explicito_sistema(f, t0, tf, N, y0, A, b, c)
