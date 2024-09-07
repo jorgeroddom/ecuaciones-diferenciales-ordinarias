@@ -80,9 +80,9 @@ c = array([0,1/2,1/2,1])
 t0 = 0
 tf = 2
 N = 50
-y0 = array([1,2])
+y0 = array([1])
 
-(t,y) = runge_kutta_explicito_sistema(f,t0,tf,N,y0,A,b,c)
+(t,y) = runge_kutta_explicito(f,t0,tf,N,y0,A,b,c)
 
 
 

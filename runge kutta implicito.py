@@ -108,7 +108,7 @@ def fy(y):
   return array([[1,0], [0,2]])
 
 
-(t,y) = runge_kutta_implicito(f,fy,t0,tf,N,y0,tol,itermax,A,b,c)
+(t,y) = runge_kutta_implicito_sistema(f,fy,t0,tf,N,y0,tol,itermax,A,b,c)
 
 plot(t,y[0],t,y[1])
 
